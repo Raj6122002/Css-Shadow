@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .box{
+            background-color: aqua;
+            width: 330px;
+            height: 330px;
+            border: 2px solid brown;
+            margin: 5px;
+            padding: 5px;
+
+            /* Normal- Shadow  offest- x | offest- y | color */
+            box-shadow: 10px 15px brown;
+
+            /* Blur Shadow  offest- x | offest- y | blur-radius | color */
+            box-shadow: 10px 15px 50px brown; 
+
+            /* offset-x | offset-y | blur-radius | spread-radius | color */
+            box-shadow: 10px 15px 5px 100px rgba(0, 0, 0.7);
+
+            /*shadow inset */
+            box-shadow: inset 10px 15px brown;
+
+            /*Multiple shadow */
+            box-shadow: 10px 15px red, 15px 8px green;
+
+            #head1{
+                text-shadow: 12px 13px 1px white;
+            }
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class = "container">
+    <div class="box">
+        <img src = "images.jpg" />
+        <h2 id = "head1"> Welcome to Codehelp </h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum modi alias iste totam suscipit consectetur voluptas placeat hic est earum laboriosam doloribus similique quo fuga, possimus pariatur deleniti delectus facere quod voluptatum facilis sequi eos non rem. Facilis debitis perspiciatis ducimus deserunt, culpa, id asperiores nostrum, labore quibusdam optio qui praesentium.
+        </p>
+    </div>
+    </div>
+</body>
+</html>
